@@ -1,0 +1,10 @@
+.rd-navbar-default.rd-navbar-static .rd-navbar-brand-title {
+  font-size: 200%;
+}
+
+a:focus,
+a.btn:focus {
+  outline: 2px #b80924 solid;
+  outline-offset: 3px;
+  text-decoration: underline;
+}
