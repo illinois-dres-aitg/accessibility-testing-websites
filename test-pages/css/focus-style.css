@@ -8,3 +8,7 @@ a.btn:focus {
   outline-offset: 3px;
   text-decoration: underline;
 }
+
+button:focus {
+  outline: 2px #b80924 solid;
+}
