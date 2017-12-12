@@ -23,3 +23,20 @@
 .bg-home .content p {
   font-size: 120%;
 }
+
+.stat {
+  font-size: 18px;
+}
+
+.bg-catskill h3 {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  color: #b80924;
+  font-size: 18px;
+}
+
+footer h3,
+footer .barnd-name {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: black;
+}
