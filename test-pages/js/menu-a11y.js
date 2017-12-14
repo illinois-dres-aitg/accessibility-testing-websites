@@ -48,7 +48,7 @@ window.addEventListener('load', function () {
   node = document.getElementById('ui-to-top');
 
   if (node) {
-    node.setAttribute('aria-label', 'Got to top of page');
+    node.setAttribute('aria-label', 'Go to top of page');
   }
 
   var submenuToggles = document.querySelectorAll('span.rd-navbar-submenu-toggle');
