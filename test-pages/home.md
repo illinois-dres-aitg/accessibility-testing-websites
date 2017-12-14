@@ -10,12 +10,13 @@
 ## Keyboard Support
 
 * Added keyboard support to menus
-* Added keyboard focus styling
+* Added keyboard focus styling to menus and links
 
 ## Links
 
 * Added accessible names to links with out names
 * Added accessible descriptions to links that need context
+* Added Skipto.js
 
 ## Color Contrast
 
@@ -24,5 +25,5 @@
 
 ## Widgets
 
-* Removed used hidden interactive elements
+* Removed used hidden nd unused interactive elements
 

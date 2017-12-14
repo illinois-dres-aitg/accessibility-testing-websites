@@ -42,6 +42,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.rd-navbar {
+  z-index: 20;
+}
+
+.rd-navbar-default.rd-navbar-static .rd-navbar-brand-title {
+  font-size: 300%;
+}
+
 footer h3,
 footer .barnd-name {
   font-family: "Merriweather", "Times New Roman", Times, serif;
