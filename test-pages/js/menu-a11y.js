@@ -57,6 +57,14 @@ window.addEventListener('load', function () {
     node.setAttribute('aria-label', 'Got to top of page');
   }
 
+  var submenuToggles = document.querySelectorAll('span.rd-navbar-submenu-toggle');
+
+  for (i = 0; i < submenuToggles.length; i++) {
+    node = submenuToggles[i];
+    console.log('NODE: ' + node.tagName);
+    node.parentNode.removeChild(node);
+  }
+
 
 
 });
