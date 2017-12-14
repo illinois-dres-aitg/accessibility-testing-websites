@@ -29,7 +29,7 @@ console.log('MENUITEMS:');
 window.addEventListener('load', function () {
 
   console.log('MENUITEMS:');
-  var i, menuItems, menuItem, dropDownItems, dropDownItem;
+  var i, node, menuItems, menuItem, dropDownItems, dropDownItem;
 
   menuItems = document.querySelectorAll('.rd-navbar-nav .rd-navbar-submenu > a');
 
@@ -49,4 +49,17 @@ window.addEventListener('load', function () {
     dropDownItem.addEventListener('blur',  blurDropDownMenu);
   }
 
+  // Adding an accessible name to top of page link
+
+  node = document.getElementById('ui-to-top');
+
+  if (node) {
+    node.setAttribute('aria-label', 'Got to top of page');
+  }
+
+
+
 });
+
+
+

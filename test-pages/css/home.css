@@ -34,9 +34,21 @@
   font-size: 18px;
 }
 
+.bg-vide {
+  background-color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 footer h3,
 footer .barnd-name {
   font-family: "Merriweather", "Times New Roman", Times, serif;
   font-size: 18px;
   color: black;
+}
+
+footer .brand-slogan {
+  color: #666;
 }

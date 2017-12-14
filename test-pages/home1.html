@@ -74,7 +74,8 @@
               </div>
               <div class="rd-navbar-menu-wrap clearfix">
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="reveal-inline-block" href="#">
+                <div class="rd-navbar-brand">
+                  <a class="reveal-inline-block" href="#">
                     <div class="unit unit-xs-middle unit-xl unit-xl-horizontal unit-spacing-xxs">
                       <div class="unit-left"><img width='170' height='172' src='images/logo-170.png' alt=''/>
                       </div>
@@ -82,7 +83,9 @@
                         <h1 class="rd-navbar-brand-title">John Adams University</h1>
                         <div class="rd-navbar-brand-slogan">Let every sluice of knowledge be opened and set a-flowing</div>
                       </div>
-                    </div></a></div>
+                    </div>
+                  </a>
+                </div>
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <div class="rd-navbar-mobile-header-wrap">
@@ -171,7 +174,7 @@
                   </div>
                 </div>
                 <!--RD Navbar Search-->
-                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
+                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-search" href="#" aria-label="Search"><span></span></a>
                   <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
                     <div class="form-group">
                       <label class="form-label" for="rd-navbar-search-form-input">Search</label>
@@ -207,7 +210,7 @@
         <section class="section-70 section-md-114">
           <div class="shell">
             <div class="range text-sm-left range-sm-middle range-sm-justify">
-              <div class="cell-sm-5 cell-md-4 cell-sm-push-2"><a href="home1.html"><img class="img-responsive reveal-inline-block" src="images/logo-326x329.png" width="326" height="329" alt=""></a></div>
+              <div class="cell-sm-5 cell-md-4 cell-sm-push-2"><a href="home1.html"><img class="img-responsive reveal-inline-block" src="images/logo-326x329.png" width="326" height="329" alt="Home"></a></div>
               <div class="cell-sm-7 cell-md-7 cell-sm-push-1 offset-top-50 offset-md-top-0">
                 <h2 class="text-bold">A Few Words <br class="veil reveal-lg-inline-block"> About the University</h2>
                 <hr class="divider bg-madison hr-sm-left-0">
@@ -231,10 +234,10 @@
                   <div class="offset-top-35 offset-md-top-60 text-light">Our Featured Courses are selected through a rigorous process and uniquely created for each semester.</div>
                   <div class="text-left">
                     <div class="offset-top-60">
-                      <article class="post-vacation"><a class="post-vacation-img-wrap bg-image" href="academic.html" style="background-image: url(images/course-01-150x120.jpg);"></a>
+                      <article class="post-vacation"><a class="post-vacation-img-wrap bg-image" href="academic.html" style="background-image: url(images/course-01-150x120.jpg);" aria-label="Financial Analyst Course"></a>
                         <div class="post-vacation-body">
                           <div>
-                            <h3 class="post-vacation-title"><a href="academic.html">Financial Analyst Course</a></h3>
+                            <h3 id="id_course_1" class="post-vacation-title"><a href="academic.html">Financial Analyst Course</a></h3>
                           </div>
                           <div class="offset-lg-top-10">
                             <p>Charles Banks</p>
@@ -242,19 +245,19 @@
                           <div class="post-vacation-meta offset-top-10">
                             <time class="text-dark" datetime="2016-01-01">June 3, 2016</time>
                             <ul class="list-inline list-unstyled list-inline-primary">
-                              <li><a class="icon icon-xxs mdi mdi-timer-sand" href="#" data-toggle="tooltip" data-placement="top" title="Part time"></a></li>
-                              <li><a class="icon icon-xxs mdi mdi-star" href="#" data-toggle="tooltip" data-placement="top" title="Certified"></a></li>
-                              <li><a class="icon icon-xxs mdi mdi-laptop-chromebook" href="#" data-toggle="tooltip" data-placement="top" title="Online Course"></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-timer-sand" href="#" data-toggle="tooltip" data-placement="top" aria-label="Part Time" aria-describedby="id_course_1" title="Part time"></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-star" href="#" data-toggle="tooltip" data-placement="top" aria-label="Certified"  aria-describedby="id_course_1"  title="Certified"></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-laptop-chromebook" href="#" data-toggle="tooltip" data-placement="top" aria-label="Online Course"  aria-describedby="id_course_1" title="Online Course"></a></li>
                             </ul>
                           </div>
                         </div>
                       </article>
                     </div>
                     <div class="offset-top-30">
-                      <article class="post-vacation"><a class="post-vacation-img-wrap bg-image" href="academic.html" style="background-image: url(images/course-02-150x120.jpg);"></a>
+                      <article class="post-vacation"><a class="post-vacation-img-wrap bg-image" href="academic.html" style="background-image: url(images/course-02-150x120.jpg);" aria-label="Digital Marketing Course"></a>
                         <div class="post-vacation-body">
                           <div>
-                            <h3 class="post-vacation-title"><a href="academic.html">Digital Marketing Course</a></h3>
+                            <h3 id="id_course_2" class="post-vacation-title"><a href="academic.html">Digital Marketing Course</a></h3>
                           </div>
                           <div class="offset-lg-top-10">
                             <p>Maria Howard</p>
@@ -262,18 +265,18 @@
                           <div class="post-vacation-meta offset-top-10">
                             <time class="text-dark" datetime="2016-01-01">June 3, 2016</time>
                             <ul class="list-inline list-unstyled list-inline-primary">
-                              <li><a class="icon icon-xxs mdi mdi-battery-50" href="#" data-toggle="tooltip" data-placement="top" title="Facultative"></a></li>
-                              <li><a class="icon icon-xxs mdi mdi-star" href="#" data-toggle="tooltip" data-placement="top" title="Certified"></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-battery-50" href="#" data-toggle="tooltip" data-placement="top" aria-label="Facultative" aria-describedby="id_course_2" title="Facultative"></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-star" href="#" data-toggle="tooltip" data-placement="top" aria-label="Certified" aria-describedby="id_course_2" title="Certified"></a></li>
                             </ul>
                           </div>
                         </div>
                       </article>
                     </div>
                     <div class="offset-top-30">
-                      <article class="post-vacation"><a class="post-vacation-img-wrap bg-image" href="academic.html" style="background-image: url(images/course-03-150x120.jpg);"></a>
+                      <article class="post-vacation"><a class="post-vacation-img-wrap bg-image" href="academic.html" style="background-image: url(images/course-03-150x120.jpg);" aria-label="Graphic Design Course"></a>
                         <div class="post-vacation-body">
                           <div>
-                            <h3 class="post-vacation-title"><a href="academic.html">Graphic Design Course</a></h3>
+                            <h3 id="id_course_3" class="post-vacation-title"><a href="academic.html">Graphic Design Course</a></h3>
                           </div>
                           <div class="offset-lg-top-10">
                             <p>Steven Carter</p>
@@ -281,9 +284,9 @@
                           <div class="post-vacation-meta offset-top-10">
                             <time class="text-dark" datetime="2016-01-01">June 3, 2016</time>
                             <ul class="list-inline list-unstyled list-inline-primary">
-                              <li><a class="icon icon-xxs mdi mdi-battery-50" href="#" data-toggle="tooltip" data-placement="top" title="Facultative"></a></li>
-                              <li><a class="icon icon-xxs mdi mdi-star" href="#" data-toggle="tooltip" data-placement="top" title="Certified"></a></li>
-                              <li><a class="icon icon-xxs mdi mdi-laptop-chromebook" href="#" data-toggle="tooltip" data-placement="top" title="Online Course"></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-battery-50" href="#" data-toggle="tooltip" data-placement="top" title="Facultative" aria-label="Facultative" aria-describedby="id_course_3" ></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-star" href="#" data-toggle="tooltip" data-placement="top" title="Certified" aria-label="Certified" aria-describedby="id_course_3" ></a></li>
+                              <li><a class="icon icon-xxs mdi mdi-laptop-chromebook" href="#" data-toggle="tooltip" data-placement="top" title="Online Course" aria-label="Online Course" aria-describedby="id_course_3" ></a></li>
                             </ul>
                           </div>
                         </div>
@@ -354,7 +357,7 @@
         <section class="context-dark">
           <div class="bg-vide" data-vide-bg="video/bg-video-1-lg" data-vide-options="posterType: jpg">
             <div class="shell section-100 section-md-160">
-              <h2 class="text-bold">Trusted by Over 6000+ Students</h2>
+              <h2 class="text-bold">ed by Over 6000+ Students</h2>
               <div class="offset-top-30">
                 <p>Join our community of students around the world helping you succeed.</p>
               </div>
@@ -370,10 +373,7 @@
             <div class="range offset-top-60 range-xs-center">
               <div class="cell-sm-6 cell-md-5 cell-xl-3">
                 <article class="post-event">
-                  <div class="post-event-img-overlay"><img class="img-responsive" src="images/blog/events-01-420x420.jpg" width="420" height="420" alt="">
-                    <div class="post-event-overlay context-dark"><a class="btn btn-primary" href="apply.html">Book Now</a>
-                      <div class="offset-top-20"><a class="btn btn-default" href="event-page.html">Learn More</a></div>
-                    </div>
+                  <div><img class="img-responsive" src="images/blog/events-01-420x420.jpg" width="420" height="420" alt="">
                   </div>
                   <div class="unit unit-lg unit-lg-horizontal">
                     <div class="unit-left">
@@ -395,10 +395,8 @@
               </div>
               <div class="cell-sm-6 cell-md-5 cell-xl-3 offset-top-50 offset-sm-top-0">
                 <article class="post-event">
-                  <div class="post-event-img-overlay"><img class="img-responsive" src="images/blog/events-02-420x420.jpg" width="420" height="420" alt="">
-                    <div class="post-event-overlay context-dark"><a class="btn btn-primary" href="apply.html">Book Now</a>
-                      <div class="offset-top-20"><a class="btn btn-default" href="event-page.html">Learn More</a></div>
-                    </div>
+                  <div>
+                    <img class="img-responsive" src="images/blog/events-02-420x420.jpg" width="420" height="420" alt="">
                   </div>
                   <div class="unit unit-lg unit-lg-horizontal">
                     <div class="unit-left">
@@ -420,10 +418,7 @@
               </div>
               <div class="cell-sm-6 cell-md-5 cell-xl-3 offset-top-50 offset-xl-top-0">
                 <article class="post-event">
-                  <div class="post-event-img-overlay"><img class="img-responsive" src="images/blog/events-03-420x420.jpg" width="420" height="420" alt="">
-                    <div class="post-event-overlay context-dark"><a class="btn btn-primary" href="apply.html">Book Now</a>
-                      <div class="offset-top-20"><a class="btn btn-default" href="event-page.html">Learn More</a></div>
-                    </div>
+                  <div><img class="img-responsive" src="images/blog/events-03-420x420.jpg" width="420" height="420" alt="">
                   </div>
                   <div class="unit unit-lg unit-lg-horizontal">
                     <div class="unit-left">
@@ -445,10 +440,8 @@
               </div>
               <div class="cell-sm-6 cell-md-5 cell-xl-3 offset-top-50 offset-xl-top-0">
                 <article class="post-event">
-                  <div class="post-event-img-overlay"><img class="img-responsive" src="images/blog/events-04-420x420.jpg" width="420" height="420" alt="">
-                    <div class="post-event-overlay context-dark"><a class="btn btn-primary" href="apply.html">Book Now</a>
-                      <div class="offset-top-20"><a class="btn btn-default" href="event-page.html">Learn More</a></div>
-                    </div>
+                  <div>
+                    <img class="img-responsive" src="images/blog/events-04-420x420.jpg" width="420" height="420" alt="">
                   </div>
                   <div class="unit unit-lg unit-lg-horizontal">
                     <div class="unit-left">
@@ -472,51 +465,6 @@
             <div class="offset-top-50 offset-lg-top-56"><a class="btn btn-icon btn-icon-right btn-primary" href="calendar.html"><span class="icon fa-arrow-right"></span><span>View Event Calendar</span></a></div>
           </div>
         </section>
-        <!-- Testimonials-->
-        <section class="bg-madison context-dark">
-          <div class="owl-carousel owl-carousel-default veil-xl-owl-dots veil-owl-nav reveal-xl-owl-nav" data-items="1" data-nav="true" data-dots="true" data-nav-class="[&quot;owl-prev fa-angle-left&quot;, &quot;owl-next fa-angle-right&quot;]">
-            <div>
-              <div class="shell section-70 section-xl-100 section-xl-bottom-114">
-                <div class="range range-xs-center range-xs-middle">
-                  <div class="cell-sm-3 text-sm-right cell-sm-push-2"><img class="img-responsive reveal-inline-block img-circle" src="images/users/user-debra-banks-230x230.jpg" width="230" height="230" alt=""></div>
-                  <div class="cell-sm-9 cell-sm-push-1">
-                    <div class="quote-classic-boxed text-left">
-                      <div class="quote-body">
-                        <q>When you work full-time while studying, you need to sacrifice personal time, which meant that I took my studies seriously. My ambition was not only to complete my degree successfully but to make the best out of the time spent studying.</q>
-                        <div class="offset-top-30 text-right">
-                          <cite class="font-accent">Debra Banks</cite>
-                          <div class="offset-top-5">
-                            <p class="text-dark text-italic">Diploma for Graduates in Management, USA</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="shell section-70 section-xl-100 section-xl-bottom-114">
-                <div class="range range-xs-center range-xs-middle">
-                  <div class="cell-sm-3 text-sm-right cell-sm-push-2"><img class="img-responsive reveal-inline-block img-circle" src="images/users/user-steven-alvarez-230x230.jpg" width="230" height="230" alt=""></div>
-                  <div class="cell-sm-9 cell-sm-push-1">
-                    <div class="quote-classic-boxed text-left">
-                      <div class="quote-body">
-                        <q>When I researched the programmes available I realized that the University was offering exactly the type of programme in international development that interested me.</q>
-                        <div class="offset-top-30 text-right">
-                          <cite class="font-accent">Steven Alvarez</cite>
-                          <div class="offset-top-5">
-                            <p class="text-dark text-italic">Diploma for Graduates in Management, USA</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <!-- Latest news-->
         <section class="bg-catskill" aria-labelledby="id_latest_news">
           <div class="shell section-70 section-md-114">
@@ -524,7 +472,7 @@
             <hr class="divider bg-madison">
             <div class="range offset-top-60 text-left range-xs-center">
               <div class="cell-sm-6 cell-md-4">
-                <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-01-370x240.jpg" width="370" height="240" alt=""></a>
+                <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-01-370x240.jpg" width="370" height="240" alt="Liberal Arts Colleges Rankings"></a>
                   <div class="post-news-body">
                     <h3><a href="news-post-page.html">Liberal Arts Colleges Rankings</a></h3>
                     <div class="offset-top-20">
@@ -534,7 +482,8 @@
                   </div>
                 </article>
                 <div class="offset-top-30">
-                  <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-04-370x240.jpg" width="370" height="240" alt=""></a>
+                  <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-04-370x240.jpg" width="370" height="240" alt="Ways Parents and Counselors Can
+                          Help Students Earn Scholarships"></a>
                     <div class="post-news-body">
                       <h3><a href="news-post-page.html">
                           Ways Parents and Counselors Can
@@ -548,7 +497,7 @@
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-30 offset-sm-top-0">
-                <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-02-370x240.jpg" width="370" height="240" alt=""></a>
+                <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-02-370x240.jpg" width="370" height="240" alt="10 Law Schools Where the Most Accepted Students Enroll"></a>
                   <div class="post-news-body">
                     <h3><a href="news-post-page.html">10 Law Schools Where the Most Accepted Students Enroll</a></h3>
                     <div class="offset-top-20">
@@ -558,7 +507,8 @@
                   </div>
                 </article>
                 <div class="offset-top-30">
-                  <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-05-370x240.jpg" width="370" height="240" alt=""></a>
+                  <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-05-370x240.jpg" width="370" height="240" alt="Consider MBA Programs That
+                          Offer Summer Prep"></a>
                     <div class="post-news-body">
                       <h3><a href="news-post-page.html">
                           Consider MBA Programs That
@@ -574,7 +524,7 @@
               <div class="cell-sm-12 cell-md-4 offset-top-30 offset-md-top-0">
                 <div class="range">
                   <div class="cell-sm-6 cell-md-12">
-                    <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-03-370x240.jpg" width="370" height="240" alt=""></a>
+                    <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-03-370x240.jpg" width="370" height="240" alt="5 Ways to Pay for Community College"></a>
                       <div class="post-news-body">
                         <h3><a href="news-post-page.html">5 Ways to Pay for Community College</a></h3>
                         <div class="offset-top-20">
@@ -585,7 +535,7 @@
                     </article>
                   </div>
                   <div class="cell-sm-6 cell-md-12 offset-top-30 offset-sm-top-0 offset-md-top-30">
-                    <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-06-370x240.jpg" width="370" height="240" alt=""></a>
+                    <article class="post-news"><a href="news-post-page.html"><img class="img-responsive" src="images/blog/news-06-370x240.jpg" width="370" height="240" alt="Studying in the United States"></a>
                       <div class="post-news-body">
                         <h3><a href="news-post-page.html">Studying in the United States</a></h3>
                         <div class="offset-top-20">
@@ -615,7 +565,7 @@
                   <div class="barnd-name text-bold offset-top-25">John Adams</div>
                 </div>
                 <div>
-                  <p class="brand-slogan text-gray text-italic font-accent">University</p>
+                  <p class="brand-slogan text-italic font-accent">University</p>
                 </div></a>
             </div>
             <div class="cell-xs-10 cell-md-5 cell-lg-4 text-lg-left offset-top-50 offset-md-top-0">
@@ -646,10 +596,10 @@
               </div>
               <div class="offset-top-15 text-left">
                 <ul class="list-inline list-inline-xs list-inline-madison">
-                  <li><a class="icon icon-xxs fa-facebook icon-circle icon-gray-light-filled" href="#"></a></li>
-                  <li><a class="icon icon-xxs fa-twitter icon-circle icon-gray-light-filled" href="#"></a></li>
-                  <li><a class="icon icon-xxs fa-google icon-circle icon-gray-light-filled" href="#"></a></li>
-                  <li><a class="icon icon-xxs fa-instagram icon-circle icon-gray-light-filled" href="#"></a></li>
+                  <li><a class="icon icon-xxs fa-facebook icon-circle icon-gray-light-filled" href="#" title="Facebook"></a></li>
+                  <li><a class="icon icon-xxs fa-twitter icon-circle icon-gray-light-filled" href="#" title="Twitter"></a></li>
+                  <li><a class="icon icon-xxs fa-google icon-circle icon-gray-light-filled" href="#" title="Google"></a></li>
+                  <li><a class="icon icon-xxs fa-instagram icon-circle icon-gray-light-filled" href="#" title="Instagram"></a></li>
                 </ul>
               </div>
             </div>
