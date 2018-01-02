@@ -14,12 +14,16 @@ function blurPopupMenu(event) {
 };
 
 function focusDropDownMenu(event) {
-  var node = event.currentTarget.parentNode.parentNode.parentNode;
+  var node = event.currentTarget.parentNode;
+  node.classList.add('focus');
+  node = node.parentNode.parentNode;
   node.classList.add('focus');
 };
 
 function blurDropDownMenu(event) {
-  var node = event.currentTarget.parentNode.parentNode.parentNode;
+  var node = event.currentTarget.parentNode;
+  node.classList.remove('focus');
+  node = node.parentNode.parentNode;
   node.classList.remove('focus');
 };
 

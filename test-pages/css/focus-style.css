@@ -5,6 +5,10 @@ a.btn:focus {
   text-decoration: underline;
 }
 
+.rd-navbar-nav > .rd-navbar-submenu > .rd-navbar-dropdown > .focus > a:focus{
+  outline: 2px white solid;
+}
+
 button:focus {
   outline: 2px #b80924 solid;
 }
