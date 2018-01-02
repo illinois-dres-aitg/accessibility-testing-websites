@@ -18,6 +18,7 @@ function focusDropDownMenu(event) {
   node.classList.add('focus');
   node = node.parentNode.parentNode;
   node.classList.add('focus');
+  event.currentTarget.style.color = "#FFFFFF";
 };
 
 function blurDropDownMenu(event) {
@@ -25,6 +26,7 @@ function blurDropDownMenu(event) {
   node.classList.remove('focus');
   node = node.parentNode.parentNode;
   node.classList.remove('focus');
+  event.currentTarget.style.color = "#B3BFDC";
 };
 
 window.addEventListener('load', function () {
