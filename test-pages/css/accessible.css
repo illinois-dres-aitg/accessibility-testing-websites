@@ -1,0 +1,5 @@
+body,
+.page blockquote.quote .text-dark, .page .text-dark,
+.rd-navbar-default.rd-navbar-static .rd-navbar-brand-slogan {
+  color: black;
+}
